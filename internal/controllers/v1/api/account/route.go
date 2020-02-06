@@ -7,5 +7,6 @@ func RegisterRoutes(party iris.Party) {
 	party.Get("/", account)
 	//修改密码
 	party.Put("/modifypassword", modifypassword)
+	//路径测试
 
 }

@@ -1,0 +1,25 @@
+web:
+  addr: :8084
+jwt:
+  key: wuxitaihu
+  expire: 24h
+  refreshexpire: 30
+database:
+  core_db_name: core_dev
+  max_open: 3000
+  max_idle: 300
+  debug: false
+  conn: dev-xtb-db:23122X.12321AcD@tcp(dev.api.xiaotibang.com:3336)/college_dev?charset=utf8
+#  conn: xtb_admin:1232@x232C1xz@tcp(rm-uf6p47w3r7nt50s6c0o.mysql.rds.aliyuncs.com:3306)/college_13571?charset=utf8
+school:
+  name: 无锡太湖学院
+limit:
+  minFrequency: 80
+  maxFrequency: 200
+redis:
+  address: 127.0.0.1:6379
+  auth: 123456
+
+
+
+
